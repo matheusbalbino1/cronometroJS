@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+html{
+    font-size: 16px;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Teko';
+}
+
+.flex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    height:100vh;
+}
+
+main{
+    width:30rem;
+    height:30rem;
+}
+
+.corpo1{
+    width:30rem;
+    height:30rem;
+    background: #c0c0c0;
+    border:1px solid black;
+    box-shadow: inset 0px 0px 15px black;
+    border-radius:40%;
+    padding:2rem; 
+}
+
+.corpo2{
+    width:100%;
+    height:100%;
+    background: #c0c0c0;
+    border-radius: 100%;
+    padding:1rem;
+}
+
+.corpo3{
+    width:100%;
+    height:100%;
+    background: rgb(97, 97, 97);
+    border:1px solid black;
+    box-shadow:0px 0px 15px black, inset 0px 0px 15px black;
+    border-radius: 100%;
+    padding:3rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.corpo4{
+    width:80%;
+    height:50%;
+    background:rgb(176, 209, 176);
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid black;
+    box-shadow: inset 0px 0px 15px black, 0px 0px 15px black;
+}
+
+p span:nth-child(1), p span:nth-child(2){
+    font-size: 6rem;
+    letter-spacing: 0px;
+    font-weight: bolder;   
+}
+
+span{
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    font-weight: bolder;
+}
+
+p{
+    font-size: 6rem;
+}
+
+.button5{
+    width:5rem;
+    height: 5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    background-color: #c0c0c0;
+}
+
+.botoes{
+    display:flex;
+    justify-content: space-between;
+    width:90%;
+}
+
+@media (max-width: 800px){
+    html{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 400px){
+    html{
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 300px){
+    html{
+        font-size: 6px;
+    }
+}
+
